@@ -1,0 +1,55 @@
+/**/_xdc_._ncfsv8 && _xdc_._ncfsv8( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "布城",
+               "short_name" : "布城",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "普特拉贾亚",
+               "short_name" : "普特拉贾亚",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "马来西亚",
+               "short_name" : "MY",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "马来西亚普特拉贾亚布城",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 2.9765181,
+                  "lng" : 101.73286
+               },
+               "southwest" : {
+                  "lat" : 2.8762051,
+                  "lng" : 101.6600299
+               }
+            },
+            "location" : {
+               "lat" : 2.926361,
+               "lng" : 101.696445
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 2.9765181,
+                  "lng" : 101.73286
+               },
+               "southwest" : {
+                  "lat" : 2.8762051,
+                  "lng" : 101.6600299
+               }
+            }
+         },
+         "place_id" : "ChIJIwuORCW2zTERbK-BqY9eFoU",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

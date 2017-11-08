@@ -1,0 +1,283 @@
+@charset "UTF-8";
+@font-face {
+  font-family: myFirstFont;
+  src: "./../font/ARIALN.TTF";
+  font-family: 'newArial';
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: myFirstFont;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: url("./../picture/bg_img.png") no-repeat;
+  background-size: cover;
+}
+
+html .masker,
+body .masker {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  filter: alpha(opacity=90);
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1002;
+  left: 0px;
+  opacity: 0.9;
+  -moz-opacity: 0.9;
+}
+
+/* 页面主体样式 */
+.container {
+  width: 1840px;
+  padding: 40px;
+  /* 左侧部分 */
+  /* 中间部分 */
+  /* 右侧部分 */
+}
+
+.container .nth1_left {
+  width: 520px;
+}
+
+.container .nth1_left .media-body {
+  width: 700px;
+  color: #fff8ac;
+}
+
+.container .nth1_left .media-body .title {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-family: myFirstFont;
+  font-weight: bold;
+}
+
+.container .nth1_left .media-body .newTimer {
+  font-size: 24px;
+  font-family: myFirstFont;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.container .nth1_left .thumbnails {
+  width: 460px;
+  height: 376px;
+  border: 2px solid #001d5f;
+  padding: 20px;
+  margin-top: 110px;
+}
+
+.container .nth1_left .thumbnails h5 {
+  font-size: 16px;
+  font-family: myFirstFont;
+  font-weight: bold;
+  color: #fff8ac;
+  line-height: 16px;
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+.container .nth1_left .thumbnails .pic {
+  width: 460px;
+  height: 324px;
+  background: url("./../picture/KLThumbnail_img.png");
+}
+
+.container .nth1_left .thumbnails .chartsPic {
+  width: 460px;
+  height: 380px;
+}
+
+.container .nth1_left .pieChartWrap {
+  width: 480px;
+  height: 300px;
+  padding: 0 10px;
+  border: 2px solid #001d5f;
+  margin-top: 40px;
+}
+
+.container .nth1_left .pieChartWrap h5 {
+  font-size: 18px;
+  font-family: myFirstFont;
+  color: #fff8ac;
+  line-height: 98px;
+  text-align: center;
+  margin: 0;
+}
+
+.container .nth1_left .pieChartWrap .piechart {
+  float: left;
+  margin-left: 12px;
+}
+
+.container .nth2_center {
+  padding-top: 50px;
+  position: relative;
+  width: 800px;
+  height: 950px;
+}
+
+.container .nth2_center .kl_city {
+  width: 800px;
+  height: 950px;
+}
+
+.container .nth2_center .mapWrap {
+  width: 800px;
+  height: 950px;
+}
+
+.container .nth2_center .chart_map {
+  width: 800px;
+  height: 950px;
+  float: left;
+  z-index: 1000;
+}
+
+.container .nth2_center .geochart_map {
+  width: 800px;
+  height: 950px;
+}
+
+.container .nth3_right {
+  margin-left: 20px;
+  /* 数据展示 */
+  /* 折线图 */
+  /* 柱状图 */
+}
+
+.container .nth3_right .show_data {
+  width: 476px;
+  height: 116px;
+  border: 2px solid #001d5f;
+  padding: 20px 0 20px 20px;
+  font-size: 16px;
+  font-family: myFirstFont;
+  font-weight: bold;
+  color: #fff8ac;
+}
+
+.container .nth3_right .show_data .total_num,
+.container .nth3_right .show_data .total_times {
+  width: 480px;
+  height: 60px;
+}
+
+.container .nth3_right .show_data .total_num i,
+.container .nth3_right .show_data .total_times i {
+  color: #67cfff;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.container .nth3_right .show_data .total_num:before {
+  content: " ";
+  float: left;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url("./../picture/lengthOftime_icon.png") no-repeat;
+  left: 0;
+  margin-right: 20px;
+}
+
+.container .nth3_right .show_data .total_times:before {
+  content: " ";
+  float: left;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url("./../picture/times_icon.png") no-repeat;
+  left: 0;
+  margin-right: 20px;
+}
+
+.container .nth3_right .lineCharts {
+  width: 496px;
+  height: 196px;
+  border: 2px solid #001d5f;
+  margin-top: 40px;
+}
+
+.container .nth3_right .lineCharts h5 {
+  width: 496px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff8ac;
+  text-align: center;
+  font-family: myFirstFont;
+  line-height: 38px;
+  padding-top: 10px;
+}
+
+.container .nth3_right .top_bar_div {
+  width: 496px;
+  height: 556px;
+  margin-top: 40px;
+  border: 2px solid #001d5f;
+  position: relative;
+}
+
+.container .nth3_right .top_bar_div h5 {
+  width: 496px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff8ac;
+  text-align: center;
+  font-family: myFirstFont;
+  position: absolute;
+  top: 20px;
+}
+
+.showTips {
+  line-height: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  font-family: myFirstFont;
+  font-size: 16px;
+  text-align: center;
+  color: #666666;
+  padding: 0 15px;
+}
+
+.showTips ::before {
+  display: block;
+  content: ' ';
+  height: 0;
+  left: 16px;
+  position: absolute;
+  width: 0;
+  border-left: 12px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  z-index: 1;
+  top: 30px;
+}
+
+.showTips ::after {
+  display: block;
+  content: ' ';
+  height: 0;
+  left: 16px;
+  position: absolute;
+  width: 0;
+  border-right: 1px solid #ffffff;
+  border-top: 10px solid #ffffff;
+  z-index: 2;
+  border-radius: 0 0 100% 0;
+  top: 30px;
+}
+
+.showTips i {
+  font-family: Impact;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: bold;
+  color: #67cfff;
+}
+
+/* 响应式 */

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Malaysia map</title>
+    <!-- <link rel="stylesheet" href="./../static/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./../static/css/base.css">
+    <link rel="stylesheet" href="./../static/css/common.css">
+    <link rel="stylesheet" href="./../static/css/nprogress.css">
+    <link rel="stylesheet" href="./../static/modules/givz/1.0/core/tooltip.css">
+    <link rel="stylesheet" href="./../static/css/cityCharts.css">
+</head>
+
+<body>
+    <div class="masker"></div>
+    <div class="container clearfix">
+        <!-- 左侧部分 -->
+        <div class="nth1_left fl">
+            <!-- logo和标题名 -->
+            <div class="media-body">
+                <h4 class="media-heading title">Kuala Lumpur today nebulization real-time data</h4>
+                <p class="newTimer"></p>
+            </div>
+            <!-- 缩略图 -->
+            <div class="thumbnails">
+                <h5>West Malaysia</h5>
+                <!-- <p class="title">West Malaysia</p> -->
+                <div class="chartsPic">
+                    <div id="thumbnails1" style="width: 100%;position: relative; margin: 0 auto;"> </div>
+                </div>
+            </div>
+            <!-- 饼图 -->
+            <div class="pieChartWrap clearfix">
+                <h5>Kuala Lumpur hospital nebulization frequency </h5>
+                <!-- occupies compared -->
+                <div id="piechart_1" class="piechart" style="width: 30%; height: 200px;"></div>
+                <div id="piechart_2" class="piechart" style="width: 30%; height: 200px;"></div>
+                <div id="piechart_3" class="piechart" style="width: 30%; height: 200px;"></div>
+            </div>
+        </div>
+        <!-- 中间部分 -->
+        <div class="nth2_center fl clearfix">
+            <!-- City map -->
+            <div class="geochart_map" style="display: block; position: relative;">
+                <div id="visualization" style="width: 100%;position: relative; margin: 0 auto;"> </div>
+            </div>
+            <div class="chart_map" style="display: none;position: relative; top:-950px">
+                <div id="chart_map" style="width: 800px;height: 950px;"></div>
+            </div>
+        </div>
+        <!-- 右侧部分 -->
+        <div class="nth3_right fl">
+            <!-- 数据展示 -->
+            <div class="show_data">
+                <div class="total_num">
+                    <p>TOTAL NEBULIZATION FREQUENCY
+                        <span>
+                            <i class="show_num">21376</i> times</span>
+                    </p>
+                    <p>ACTIVATION DURATION
+                        <span>
+                            <i class="show_persent">23%</i>
+                        </span>
+                    </p>
+                </div>
+                <div class="total_times">
+                    <p>TOTAL NEBULIZATION DURATION </p>
+                    <span>
+                        <i class="show_times">9 hours 3 minutes 25 seconds</i>
+                    </span>
+                </div>
+            </div>
+            <!-- 折线图 -->
+            <div class="lineCharts">
+                <h5>Kuala Lupur today nebulization frequency -- Time curve</h5>
+                <div id="line_chart" style="width: 100%; height: 160px"></div>
+            </div>
+            <!-- 柱状图 -->
+            <div class="top_bar_div">
+                <h5>Kuala Lumpur hospitals today nebulization frquency top10</h5>
+                <div id="top_bar_div" style="width: 100%; height: 560px;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script> -->
+<script src="./../static/js/loader.js"></script>
+<script src="./../static/js/45.2/loader.js"></script>
+<script src="./../static/js/45.2/js/jsapi_compiled_format_module.js"></script>
+<script src="./../static/js/jquery.min.js"></script>
+<script src="./../static/js/jquery.animateNumber.js"></script>
+<script src="./../static/js/nprogress.js"></script>
+<script src="./../static/js/bootstrap.min.js"></script>
+<script src="./../static/js/01-common.js"></script>
+<script src="./../static/js/01-pieChart.js"></script>
+<script src="./../static/js/01-line charts.js"></script>
+<script src="./../static/js/01-bar charts.js"></script>
+<script src="./../static/js/malaysia.js"></script>
+<script src="./../static/js/01-VNM_map_charts.js"></script>
+
+</html>

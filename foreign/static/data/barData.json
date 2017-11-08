@@ -1,0 +1,17 @@
+{
+    "data": [
+        ["Element", "Density", {
+            "role": "style"
+        }],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 200, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 300, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 490, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 510, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 590, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 601, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 640, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 760, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 790, "#fff8ac"],
+        ["PUBAT PERUBATAN UNIVERSITI MALAYA", 820, "#fff8ac"]
+    ]
+}
